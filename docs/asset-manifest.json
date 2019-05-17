@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tsx-xaml-render-props/static/css/main.1e1d582e.chunk.css",
+    "main.js": "/tsx-xaml-render-props/static/js/main.dc17c39e.chunk.js",
+    "main.js.map": "/tsx-xaml-render-props/static/js/main.dc17c39e.chunk.js.map",
+    "runtime~main.js": "/tsx-xaml-render-props/static/js/runtime~main.99a66bbd.js",
+    "runtime~main.js.map": "/tsx-xaml-render-props/static/js/runtime~main.99a66bbd.js.map",
+    "static/js/2.f5a82c0a.chunk.js": "/tsx-xaml-render-props/static/js/2.f5a82c0a.chunk.js",
+    "static/js/2.f5a82c0a.chunk.js.map": "/tsx-xaml-render-props/static/js/2.f5a82c0a.chunk.js.map",
+    "index.html": "/tsx-xaml-render-props/index.html",
+    "precache-manifest.73a26d5fa8a2d91200ef9e91fcaa657d.js": "/tsx-xaml-render-props/precache-manifest.73a26d5fa8a2d91200ef9e91fcaa657d.js",
+    "service-worker.js": "/tsx-xaml-render-props/service-worker.js",
+    "static/css/main.1e1d582e.chunk.css.map": "/tsx-xaml-render-props/static/css/main.1e1d582e.chunk.css.map"
+  }
+}
