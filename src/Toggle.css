@@ -1,0 +1,29 @@
+.Toggle {
+  align-items: center;
+  display: flex;
+}
+
+.Toggle label {
+  color: gray;
+}
+
+.Toggle input {
+  height: 16px;
+  margin: 0 1em;
+  visibility: hidden;
+  width: 32px;
+}
+
+.Toggle input::after {
+  background: radial-gradient(circle at 8px center, white 0, white 6px, silver 6px, silver 6px);
+  border-radius: 8px;
+  content: '';
+  display: inline-block;
+  height: 16px;
+  visibility: visible;
+  width: 32px;
+}
+
+.Toggle input:checked::after {
+  background: radial-gradient(circle at 24px center, white 0, white 6px, #0080ff 6px, #0080ff 6px);
+}

@@ -1,0 +1,23 @@
+.Slider {
+  border: 1px solid silver;
+}
+
+.Slider-slides {
+  background: silver;
+}
+
+.Slider-slides button {
+  background: none;
+  border: none;
+  font: inherit;
+  padding: 1ex;
+}
+
+.Slider-slides button.selected {
+  background: white;
+  outline: none;
+}
+
+.Slider-slide {
+  padding: 1em;
+}
