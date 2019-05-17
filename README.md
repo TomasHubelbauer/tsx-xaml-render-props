@@ -2,6 +2,28 @@
 
 [**Online demo**](https://tomashubelbauer.github.io/tsx-xaml-render-props)
 
+```jsx
+<Toggle title="Test" checked>
+  <Toggle.OnContent>checked!</Toggle.OnContent>
+  <Toggle.OffContent>unchecked!</Toggle.OffContent>
+  ⭐
+</Toggle>
+```
+
+![](toggle.png)
+
+```jsx
+<Slider orientation="horizontal" childrenPlacement="slide">
+  <Slider.Slide title="Slide 1">Slide #1 content</Slider.Slide>
+  <Slider.Slide title="Slide 2">Slide #2 content</Slider.Slide>
+  <Slider.Slide title="Slide 3">Slide #3 content</Slider.Slide>
+  <Slider.Slide title="Slide 4">Slide #4 content</Slider.Slide>
+  <div>Extra content</div>
+</Slider>
+```
+
+![](slides.png)
+
 This repository demonstrates an alternative to a React pattern called *render props*.
 Render props are regular React props whose values are functions which receive data and generate React elements.
 
@@ -43,22 +65,4 @@ One problem with this is that such elements are still just children of the paren
 component children before it is rendered and filter out these pseudo-children. As they are being processed, if they match the type
 we know our component exports for these "prop-children", we can set the instance aside and do further processing with it.
 
-The code is in this repository, so I won't go to much detail, let's skip to what it allows us to do:
-
-```jsx
-<Toggle title="Test" checked>
-  <Toggle.OnContent>checked!</Toggle.OnContent>
-  <Toggle.OffContent>unchecked!</Toggle.OffContent>
-  ⭐
-</Toggle>
-```
-
-```jsx
-<Slider orientation="horizontal" childrenPlacement="slide">
-  <Slider.Slide title="Slide 1">Slide #1 content</Slider.Slide>
-  <Slider.Slide title="Slide 2">Slide #2 content</Slider.Slide>
-  <Slider.Slide title="Slide 3">Slide #3 content</Slider.Slide>
-  <Slider.Slide title="Slide 4">Slide #4 content</Slider.Slide>
-  <div>Extra content</div>
-</Slider>
-```
+The code is in this repository, so I won't go to much detail.
