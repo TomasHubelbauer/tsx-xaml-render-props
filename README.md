@@ -66,3 +66,5 @@ component children before it is rendered and filter out these pseudo-children. A
 we know our component exports for these "prop-children", we can set the instance aside and do further processing with it.
 
 The code is in this repository, so I won't go to much detail.
+
+- [ ] Fix Firefox by not using `::after` on an `input` in `Toggle` but on the label instead
